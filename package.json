@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon ./src/index"
+        "start": "nodemon ./src/index",
+        "clear:materi": "rm -rf ./src/data/materi.json && touch ./src/data/materi.json"
     },
     "keywords": [],
     "author": "",
